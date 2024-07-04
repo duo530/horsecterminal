@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    background-color: #1e1e1e;
+    color: #c5c5c5;
+}
+.terminal {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+.prompt {
+    display: flex;
+    align-items: center;
+}
+input[type="text"] {
+    flex-grow: 1;
+    background: none;
+    border: none;
+    color: #c5c5c5;
+}
+pre {
+    background-color: #111;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
